@@ -1,0 +1,51 @@
+{
+  "name": "graphql-cli-up",
+  "version": "0.0.0-development",
+  "description": "Plugin for graphql-cli to bundle schemas and generate bindings",
+  "main": "dist/index.js",
+  "typings": "dist/index.d.ts",
+  "scripts": {
+    "prepublish": "npm run build",
+    "build": "tsc -d",
+    "pretest": "npm run build",
+    "lint": "tslint src/**/*.ts",
+    "semantic-release": "semantic-release"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/supergraphql/graphql-cli-up.git"
+  },
+  "keywords": [
+    "graphql",
+    "graphql-cli"
+  ],
+  "author": "Kim Brandwijk <kim.brandwijk@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/supergraphql/graphql-cli-up/issues"
+  },
+  "homepage": "https://github.com/supergraphql/graphql-cli-up#readme",
+  "devDependencies": {
+    "@types/fs-extra": "5.0.0",
+    "@types/inquirer": "0.0.36",
+    "@types/node": "8.5.2",
+    "@types/node-fetch": "1.6.7",
+    "@types/yargs": "10.0.0",
+    "graphql-cli": "2.6.0",
+    "graphql-config": "1.1.4",
+    "semantic-release": "^11.0.2",
+    "tslint": "5.8.0",
+    "typescript": "2.6.2"
+  },
+  "release": {
+    "branch": "master"
+  },
+  "dependencies": {
+    "chalk": "2.3.0",
+    "figures": "^2.0.0",
+    "fs-extra": "5.0.0",
+    "lodash": "4.17.4",
+    "node-fetch": "1.7.3",
+    "sillyname": "0.1.0"
+  }
+}
