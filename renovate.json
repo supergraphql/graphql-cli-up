@@ -1,6 +1,10 @@
 {
     "semanticCommits": true,
-    "extends": [
-      "config:base"
-    ]
+    "extends": ["config:base", ":semanticCommitTypeAll(chore)", ":skipStatusChecks"],
+    "automerge": "true",
+    "dependencies": {
+      "major": {
+        "autoMerge": false
+      }
+    }
   }
