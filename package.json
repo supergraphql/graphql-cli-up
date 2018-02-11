@@ -40,7 +40,7 @@
     "branch": "master"
   },
   "dependencies": {
-    "chalk": "2.3.0",
+    "chalk": "2.3.1",
     "figures": "^2.0.0",
     "fs-extra": "5.0.0",
     "lodash": "4.17.5",
