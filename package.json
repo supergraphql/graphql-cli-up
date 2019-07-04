@@ -44,7 +44,7 @@
     "figures": "^2.0.0",
     "fs-extra": "5.0.0",
     "lodash": "4.17.5",
-    "node-fetch": "1.7.3",
+    "node-fetch": "2.0.0",
     "sillyname": "0.1.0"
   }
 }
